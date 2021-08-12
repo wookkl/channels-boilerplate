@@ -1,4 +1,14 @@
 # channels-boilerplate
+## requirements
+- django==3.2.6
+- djangorestframework==3.12.4
+- django-cors-headers==3.7.0
+- channels==3.0.4
+- channels-redis==3.3.0
+- daphne==3.0.2
+- pyjwt==2.1.0
+- sentry-sdk==1.3.1
+- drf-yasg==1.20.0
 
 ## Project setting check list
 - [x] Settings check list
