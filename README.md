@@ -20,4 +20,9 @@
     
 ## Chat app
 - [x] routing.py 에 websocket urlpatterns을 생성해서 라우팅
+- [x] 모든 Consumer에 들어오는 received content들은 해당 Consumer의 핸들러로 넘겨서 처리
+- [x] content에 포함되어 있는 event에 따라 핸들어의 on 메서드가 실행 
 
+## Core app
+- [x] 타임 스탬프 추상 모델 생성
+- [x] JWT 인증을 위한 미들웨어 생성
