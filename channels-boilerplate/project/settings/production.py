@@ -6,8 +6,6 @@ from .base import *
 
 DEBUG = False
 
-SECRET_KEY = os.getenv('SECRET_KEY')
-
 ALLOWED_HOSTS = ['*']
 
 STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/static/'

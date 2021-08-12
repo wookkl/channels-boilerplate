@@ -7,6 +7,8 @@ from corsheaders.defaults import default_headers
 # Run mode ('local' | 'develop' | 'production')
 RUN_MODE = os.getenv('RUN_MODE')
 
+SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-e@*g#!7!ovjfs0id)v_p3j&=+rc4@k71ef@aqih6(=lw&vcutp')
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # CORS ORIGIN
